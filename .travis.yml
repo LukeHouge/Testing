@@ -1,4 +1,5 @@
 language: node_js
 node_js:
  - "node"
- - "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | codacy-coverage && rm -rf ./coverage"
+ after_success:
+- npm run coveralls
