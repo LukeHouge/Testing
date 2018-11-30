@@ -4,9 +4,16 @@
   "author": "Luke Houge",
   "version": "0.0.1",
   "devDependencies": {
-    "jshint": "^2.9.6"
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "jshint hello.js"
+    "test": "mocha",
+    "test-with-coverage": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | codacy-coverage && rm -rf ./coverage"
+  },
+  "dependencies": {
+    "codacy-coverage": "^3.3.0",
+    "mocha-lcov-reporter": "^1.3.0"
   }
 }
