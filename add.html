@@ -1,12 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <script src="add.js"></script>
     </head>
     <body>
-        Enter the First number : <input id="first">
-        Enter the Second number: <input id="second">
-        <button onclick="add(2,2)">Add</button>
-        <input id="answer">
+
+    <h3>A demonstration of how to access a Number field</h3>
+
+    <input type="number" id="one" value="">
+    <input type="number" id="two" value="">
+
+    <p>Click the button to get the number of the number field.</p>
+
+    <button onclick="passThrough()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function passThrough() {
+        var one = document.getElementById("one").value;
+        var two = document.getElementById("two").value;
+        var result = operation.add(one,two);
+        document.getElementById("demo").innerHTML = result;
+    }
+    </script>
+
     </body>
 </html>
