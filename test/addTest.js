@@ -1,5 +1,5 @@
-let operation = require('../add.js')	let operation = require('../add.js')
-let assert = require('assert');	let assert = require('assert'); 
+let assert = require('assert');
+let operation = require('../add.js')
  describe('Operations', function() {	
   describe('Subtracting', function() {	
     it('should subtract 4-3 = 1', function() {	
