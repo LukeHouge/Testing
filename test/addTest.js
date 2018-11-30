@@ -17,7 +17,7 @@ describe('Operations', function() {
   });
   describe('Dividing', function() {
     it('should divide 4/2 = 2', function() {
-      assert.equal(2, operation.compute('div',4,2));
+      assert.equal(2, operation.compute('div',4,1));
     });
     it('should divide 4/5 = 0.8', function() {
       assert.equal(.8, operation.compute('div',4,5));
