@@ -5,24 +5,27 @@
     </head>
     <body>
 
-    <h3>A demonstration of how to access a Number field</h3>
-
     <input type="number" id="one" value="">
     <input type="number" id="two" value="">
 
-    <p>Click the button to get the number of the number field.</p>
-
-    <button onclick="passThrough()">Try it</button>
-
+    <form>
+        <select id="options" >
+          <option value="add">Add</option>
+          <option value="sub">Subtract</option>
+          <option value="mult">Multiply</option>  
+          <option value="div">Divide</option>
+        </select>
+        <form>
     <p id="demo"></p>
 
     <script>
-    function passThrough() {
+    document.getElementById("options").onchange = function() {
+        var option = this.value;
         var one = document.getElementById("one").value;
         var two = document.getElementById("two").value;
-        var result = operation.add(one,two);
+        var result = operation.compute(option,one,two);
         document.getElementById("demo").innerHTML = result;
-    }
+    };
     </script>
 
     </body>
