@@ -5,7 +5,7 @@
 [![dependencies Status](https://david-dm.org/lukehouge/Testing/status.svg)](https://david-dm.org/lukehouge/Testing)
 [![devDependencies Status](https://david-dm.org/lukehouge/Testing/dev-status.svg)](https://david-dm.org/lukehouge/Testing?type=dev)
 
-Super basic and quick code setup to test CI/CD enviroment with the following tools:
+Super basic and quick code setup to test/learn CI/CD enviroment with the following tools:
 - Mocha as the testing framework for the nodeJS program
 - Chai as the assertion library
 - Travis-ci for the CI/CD tool automatically running Mocha for build errors resulting from unit tests
