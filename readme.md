@@ -4,6 +4,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d798a355610b4045a3aa55e26d537f1f)](https://app.codacy.com/app/LukeHouge/Testing-?utm_source=github.com&utm_medium=referral&utm_content=LukeHouge/Testing-&utm_campaign=Badge_Grade_Dashboard)
 [![dependencies Status](https://david-dm.org/lukehouge/Testing/status.svg)](https://david-dm.org/lukehouge/Testing)
 [![devDependencies Status](https://david-dm.org/lukehouge/Testing/dev-status.svg)](https://david-dm.org/lukehouge/Testing?type=dev)
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/LukeHouge/Testing/releases)
+
 
 Super basic and quick code setup to test/learn CI/CD enviroment with the following tools:
 - Mocha as the testing framework for the nodeJS program
